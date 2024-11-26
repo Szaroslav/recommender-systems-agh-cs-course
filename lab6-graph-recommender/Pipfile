@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+ipykernel = "~=6.29.5"
+torch = "~=2.5.1"
+pykeen = "~=1.11.0"
+tqdm = "~=4.67.1"
+seaborn = "~=0.13.2"
+ipywidgets = "~=8.1.5"
+matplotlib = "~=3.9.2"
+prettytable = "~=3.12.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
